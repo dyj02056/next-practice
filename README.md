@@ -1,1 +1,1 @@
-# next-practice (지윤의 메모 웹 애플리케이션)
+# next-practice (민수와 지윤의 협업 메모 앱 프로젝트)
