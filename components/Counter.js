@@ -8,7 +8,10 @@ export default function Counter() {
   return (
     <div>
       <p>누른 횟수: {count}</p>
-      <button onClick={() => setCount(count + 1)}>한 번 누르기</button>
+      <div style={{ display: "flex", gap: "8px" }}>
+        <button onClick={() => setCount(count + 1)}>한 번 누르기</button>
+        <button onClick={() => setCount(0)}>초기화</button>
+      </div>
     </div>
   );
 }

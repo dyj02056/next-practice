@@ -68,7 +68,7 @@ export default function Notes() {
         {error && <p className="error" role="alert">{error}</p>}
       </form>
       <p>메모 {notes.length}개</p>
-      {notes.length === 0 && <p>아직 메모가 없습니다.</p>}
+      {notes.length === 0 && <p className="empty-notice">📝 등록된 메모가 없습니다. 위의 입력창에서 첫 번째 메모를 등록해 보세요!</p>}
       {notes.map((note) => (
         <article key={note.id}>
           <p>{note.text}</p>
