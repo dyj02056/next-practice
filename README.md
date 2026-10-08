@@ -1,1 +1,1 @@
-# next-practice
+# next-practice (민수의 메모 앱 실습 프로젝트)
