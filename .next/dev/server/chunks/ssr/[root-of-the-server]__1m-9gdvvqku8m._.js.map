@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/work/next-practice/app/notes/page.js"],"sourcesContent":["import Notes from \"../../components/Notes\";\r\n\r\nexport default function NotesPage() {\r\n  return (\r\n    <section>\r\n      <h1>메모 연습</h1>\r\n      <Notes />\r\n    </section>\r\n  );\r\n}"],"names":["NotesPage"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC,8HAAK;;;;;;;;;;;AAGZ"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["file:///C:/work/next-practice/components/Notes.js"],"sourcesContent":["const notes = [\r\n  { id: 1, text: \"첫 번째 메모\" },\r\n  { id: 2, text: \"Next.js 연습하기\" },\r\n];\r\n\r\nexport default function Notes() {\r\n  return (\r\n    <div>\r\n      <p>메모 {notes.length}개</p>\r\n      {notes.map((note) => (\r\n        <article key={note.id}>\r\n          <p>{note.text}</p>\r\n        </article>\r\n      ))}\r\n    </div>\r\n  );\r\n}"],"names":["notes","id","text","Notes","length","map","note"],"mappings":";;;;;;AAAA,MAAMA,QAAQ;IACZ;QAAEC,IAAI;QAAGC,MAAM;IAAU;IACzB;QAAED,IAAI;QAAGC,MAAM;IAAe;CAC/B;AAEc,SAASC;IACtB,qBACE,8OAAC;;0BACC,8OAAC;;oBAAE;oBAAIH,MAAMI,MAAM;oBAAC;;;;;;;YACnBJ,MAAMK,GAAG,CAAC,CAACC,qBACV,8OAAC;8BACC,cAAA,8OAAC;kCAAGA,KAAKJ,IAAI;;;;;;mBADDI,KAAKL,EAAE;;;;;;;;;;;AAM7B"}}]
+}

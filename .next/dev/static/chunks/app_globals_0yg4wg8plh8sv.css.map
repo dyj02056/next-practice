@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/work/next-practice/app/globals.css"],"sourcesContent":["* { box-sizing: border-box; }\r\nbody { max-width: 720px; margin: 32px auto; padding: 0 20px; font-family: Arial, \"Malgun Gothic\", sans-serif; line-height: 1.6; color: #222; }\r\nnav { display: flex; gap: 20px; margin-bottom: 24px; }\r\nbutton, input { font: inherit; padding: 8px; }\r\nbutton { cursor: pointer; }\r\ninput { width: 100%; margin: 8px 0; }\r\nform, article { padding: 16px; margin: 16px 0; border: 1px solid #ccc; border-radius: 6px; }\r\narticle p { overflow-wrap: anywhere; }\r\n.actions { display: flex; flex-wrap: wrap; gap: 8px; }\r\n.error { color: #b91c1c; }"],"names":[],"mappings":"AAAA;;;;AACA;;;;;;;;;AACA;;;;;;AACA;;;;;AACA;;;;AACA;;;;;AACA;;;;;;;AACA;;;;AACA;;;;;;AACA"}}]
+}

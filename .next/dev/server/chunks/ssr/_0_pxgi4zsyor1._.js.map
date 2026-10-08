@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/work/next-practice/components/Counter.js"],"sourcesContent":["\"use client\";\r\n\r\nimport { useState } from \"react\";\r\n\r\nexport default function Counter() {\r\n  const [count, setCount] = useState(0);\r\n\r\n  return (\r\n    <div>\r\n      <p>누른 횟수: {count}</p>\r\n      <button onClick={() => setCount(count + 1)}>한 번 누르기</button>\r\n    </div>\r\n  );\r\n}"],"names":["Counter","count","setCount","onClick"],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAASA;IACtB,MAAM,CAACC,OAAOC,SAAS,GAAG,IAAA,iNAAQ,EAAC;IAEnC,qBACE,8OAAC;;0BACC,8OAAC;;oBAAE;oBAAQD;;;;;;;0BACX,8OAAC;gBAAOE,SAAS,IAAMD,SAASD,QAAQ;0BAAI;;;;;;;;;;;;AAGlD"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/work/next-practice/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
